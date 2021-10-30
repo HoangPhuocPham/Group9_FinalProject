@@ -1,0 +1,82 @@
+/* .MyColor > .navbar-link.is-active,
+.navbar-link:focus,
+.navbar-link:focus-within,
+.navbar-link:hover,
+a.navbar-item.is-active,
+a.navbar-item:focus,
+a.navbar-item:focus-within,
+a.navbar-item:hover {
+   background-color: #fafafa;
+   color: #485fc7;
+} */
+.checked {
+   color: orange;
+}
+.uncheck {
+   color: rgb(230, 230, 230);
+}
+.mycolor {
+   color: white;
+   background: #1a94ff;
+}
+.mycolor:hover {
+   color: white;
+   background: #1a94ff;
+}
+/* .MyStyle .navbar-link:hover {
+   background-color: #1a94ff;
+   color: white;
+} */
+.zoomCategory > img {
+   transition: all 0.3s ease;
+}
+.hoverCategory:hover ~ .zoomCategory > img {
+   transform: scale(1.1);
+}
+.nameCategory > h3 {
+   transition: all 0.1s ease;
+}
+.hoverCategory:hover + .nameCategory > h3 {
+   color: #1a94ff;
+}
+.nameBestSelling {
+   transition: all 0.1s ease;
+
+   display: -webkit-box;
+   -webkit-line-clamp: 2;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+   overflow-x: hidden;
+   overflow-y: hidden;
+}
+.hoverBestSelling {
+   transition: all 0.2s ease;
+}
+.hoverBestSelling:hover .nameBestSelling {
+   color: #1a94ff;
+}
+.hoverBestSelling:hover {
+   box-shadow: 0 0 10px 3px rgb(0 0 0 / 7%);
+}
+.featuredProductHover:hover {
+   box-shadow: rgb(0 0 0 / 10%) 0px 0px 20px;
+   z-index: 1;
+}
+.featuredProductHover:hover .featureProduct {
+   color: #1a94ff;
+}
+.slick-prev:before {
+   font-family: FontAwesome;
+   content: "\f053";
+
+   color: #f02757;
+
+   font-size: 20px;
+}
+
+.slick-next:before {
+   font-family: FontAwesome;
+   content: "\f054";
+   color: #f02757;
+   font-size: 20px;
+}

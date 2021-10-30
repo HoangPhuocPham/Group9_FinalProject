@@ -1,0 +1,39 @@
+h1,
+h2,
+h3,
+h4 {
+   color: #666666;
+}
+.img-zoom-container {
+   position: relative;
+   /* border: 1px solid rgb(224, 224, 224); */
+}
+
+.img-zoom-lens {
+   position: absolute;
+   /* display: none; */
+   border: 1px solid black;
+   background-color: rgb(230, 230, 230);
+   opacity: 0.4;
+   /*set the size of the lens:*/
+   width: 195px;
+   height: 195px;
+}
+
+.img-zoom-result {
+   position: absolute;
+   /* display: none; */
+   top: 0;
+   z-index: 2;
+   right: -117%;
+   border: 1px solid #1a94ff;
+   /*set the size of the result div:*/
+   width: 530px;
+   height: 530px;
+}
+.checked {
+   color: orange;
+}
+.uncheck {
+   color: rgb(230, 230, 230);
+}
